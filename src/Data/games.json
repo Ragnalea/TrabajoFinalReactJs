@@ -14,7 +14,7 @@
       "nombre":"Age of Empires Definitive Edition",
       "precio":500,
       "category":"Pc",
-      "description": "",
+      "description": "Disfruta como nunca de todas las campañas originales y las expansiones más vendidas. ¡Te aguarda una experiencia de juego de más de 200 horas que abarca todo un milenio de la historia humana!",
       "stocks":10,
       "img":"../img/Pc/Age_Of_Empires_II.jpg",
       "cant":1
@@ -24,7 +24,7 @@
       "nombre":"Digimon World: Next Order",
       "precio":8800,
       "category":"PS",
-      "description": "",
+      "description": "Encuentra y recluta a tantos compañeros Digimon reales como puedas para reconstruir el Mundo Digital. ¿Serás capaz de equilibrar tanto el entrenamiento como la exploración para impedir que los Digimon infectados con virus lo destruyan todo?",
       "stocks":10,
       "img":"../img/Ps/Digimon_Next_Order.jpg",
       "cant":1
@@ -34,7 +34,7 @@
       "nombre":"Devil May Cry 5",
       "precio":11800,
       "category":"PS",
-      "description": "",
+      "description": "El cazademonios definitivo vuelve con estilo en el juego que los fans de la acción estaban esperando. Ahora incluye el contenido descargable Personaje jugable: Vergil (también disponible por separado).",
       "stocks":10,
       "img":"../img/Ps/DMC_V.jpg",
       "cant":1
@@ -44,7 +44,7 @@
       "nombre":"Assassin's Creed II",
       "precio":4100,
       "category":"Xbox",
-      "description": "",
+      "description": "Assassin’s Creed II presenta a Ezio, un nuevo Assassin que continúa el legado letal de sus antepasados. Enfréntate a una historia épica de poder y corrupción en la que pulirás tu artes de Assassin, y empuñarás armas e instrumentos diseñados por el mismísimo Leonardo da Vinci en esta continuación de la serie apasionante y mortal.",
       "stocks":10,
       "img":"../img/Xbox/AC_II.jpg",
       "cant":1
@@ -54,7 +54,7 @@
       "nombre":"Assassin's Creed Odyssey",
       "precio":8000,
       "category":"Xbox",
-      "description": "",
+      "description": "Explora todo un país lleno de entornos y ciudades indomables en el apogeo de la Edad de Oro de Grecia. Visita Esparta y sea testigo de Atenas en toda su gloria, sigue los pasos de leyendas como Odiseo y Hércules y descubra los secretos de Grecia",
       "stocks":10,
       "img":"../img/Xbox/AC_Odyssey.jpg",
       "cant":1
@@ -64,7 +64,7 @@
       "nombre":"Triangle Strategy",
       "precio":20530,
       "category":"Nintendo",
-      "description": "",
+      "description": "Una historia épica con impresionantes gráficos HD-2D en la que tendrás que tomar decisiones difíciles dentro de la trama ambientada en el continente de Norselia, que ha sido devastado por la guerra.",
       "stocks":10,
       "img":"../img/Nintendo/Triangle.jpg",
       "cant":1
@@ -74,7 +74,7 @@
       "nombre":"The Legend of Zelda: Breath of the Wild",
       "precio":24700,
       "category":"Nintendo",
-      "description": "",
+      "description": "Link despierta tras un profundo sueño de 100 años en un misterioso templo en el reino de Hyrule; junto a él, deberemos descubrir su pasado mientras escuchamos una voz que nos incita a enfrentarnos a un malvado ser que provocó el llamado cataclismo: Ganon.",
       "stocks":10,
       "img":"../img/Nintendo/Zelda.jpg",
       "cant":1
