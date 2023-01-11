@@ -14,7 +14,6 @@ function App() {
         <Route path='/detail/:id' element={<ItemDetailContainer/>}/>
         <Route path='*' element={<h2>Ruta no encontrada</h2>}/> 
       </Routes>   
-      <ItemListContainer greeting={"Bienvenido al Mundo Gamer"}/>
     </BrowserRouter>  
   );
 }

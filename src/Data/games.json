@@ -4,6 +4,8 @@
       "nombre":"Assassin's Creed Valhalla",
       "precio":10000,
       "category":"Pc",
+      "description": "Ponte en la piel de Eivor, una leyenda vikinga en busca de gloria. Saquea a tus enemigos, haz prosperar tu asentamiento y consolida tu poder político.",
+      "stocks":10,
       "img":"../img/Pc/AC_Valhalla.jpg",
       "cant":1
    },
@@ -12,6 +14,8 @@
       "nombre":"Age of Empires Definitive Edition",
       "precio":500,
       "category":"Pc",
+      "description": "",
+      "stocks":10,
       "img":"../img/Pc/Age_Of_Empires_II.jpg",
       "cant":1
    },
@@ -20,6 +24,8 @@
       "nombre":"Digimon World: Next Order",
       "precio":8800,
       "category":"PS",
+      "description": "",
+      "stocks":10,
       "img":"../img/Ps/Digimon_Next_Order.jpg",
       "cant":1
    },
@@ -28,6 +34,8 @@
       "nombre":"Devil May Cry 5",
       "precio":11800,
       "category":"PS",
+      "description": "",
+      "stocks":10,
       "img":"../img/Ps/DMC_V.jpg",
       "cant":1
    },
@@ -36,6 +44,8 @@
       "nombre":"Assassin's Creed II",
       "precio":4100,
       "category":"Xbox",
+      "description": "",
+      "stocks":10,
       "img":"../img/Xbox/AC_II.jpg",
       "cant":1
    },
@@ -44,6 +54,8 @@
       "nombre":"Assassin's Creed Odyssey",
       "precio":8000,
       "category":"Xbox",
+      "description": "",
+      "stocks":10,
       "img":"../img/Xbox/AC_Odyssey.jpg",
       "cant":1
    },
@@ -52,6 +64,8 @@
       "nombre":"Triangle Strategy",
       "precio":20530,
       "category":"Nintendo",
+      "description": "",
+      "stocks":10,
       "img":"../img/Nintendo/Triangle.jpg",
       "cant":1
    },
@@ -60,6 +74,8 @@
       "nombre":"The Legend of Zelda: Breath of the Wild",
       "precio":24700,
       "category":"Nintendo",
+      "description": "",
+      "stocks":10,
       "img":"../img/Nintendo/Zelda.jpg",
       "cant":1
    }
