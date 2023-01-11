@@ -3,7 +3,7 @@
     flex-direction: column;
     border: solid;
     margin:30px;
-
+    backdrop-filter: contrast(0.1)
 }
 
 .detailItem{

@@ -21,8 +21,6 @@ const ItemDetail = ({detail}) => {
             {
                     quantity === 0 ?
                     <ItemCount 
-                        stock={20} 
-                        initial={1} 
                         onAdd={onAdd}    
                     />
                     :

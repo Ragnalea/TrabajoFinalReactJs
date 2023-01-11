@@ -8,7 +8,7 @@ export default function NavBar(){
         
         <ul className="nav-list">
         <li className="nav-item">
-            <Link to="/">Marca</Link>
+            <Link to="/"><img src="../img/logo.jpg" alt="logo" /></Link>
             </li>
         <li className="nav-item">
             <Link to="/category/Pc">PC</Link>

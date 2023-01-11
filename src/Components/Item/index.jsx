@@ -8,7 +8,7 @@ function Item({game}) {
         <img src={game.img} alt="Imagen del juego" className="itemImg"/>
         <div className='detailItem'>
             <h3 className='itemName'>{game.nombre}</h3>
-            <p className='itemPrecio'>{game.precio}</p>
+            <p className='itemPrecio'>${game.precio}</p>
             <Link to={`/detail/${game.id}`} className="itemButton">More Info</Link>
         </div>
     </div>

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
 import ItemDetail from '../ItemDetail/index';
 import juegos from '../../Data/games.json';
+import './style.css';
 
 const ItemDetailContainer = () => {
   const [detail, setDetail] = useState({})
