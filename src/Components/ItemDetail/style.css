@@ -1,0 +1,15 @@
+.cardItem{
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    margin:30px;
+
+}
+
+.detailItem{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    
+}

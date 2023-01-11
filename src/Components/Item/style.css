@@ -1,0 +1,23 @@
+.cardItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.detailItem{
+    display: flex;
+    flex-direction: row;
+}
+
+.itemImg{
+    width: 200px;
+}
+
+.itemPrecio{
+    color: red;
+    font-style: italic;
+}
+
+.itemButton{
+    border: 1;
+}

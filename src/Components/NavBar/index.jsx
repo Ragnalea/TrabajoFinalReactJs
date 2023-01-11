@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import CartWidget from "../CartWidget";
 import './style.css';
 
@@ -6,17 +7,20 @@ export default function NavBar(){
     return (
         
         <ul className="nav-list">
-        <li>
-            <a href="#pc" className="nav-item">PC</a>
+        <li className="nav-item">
+            <Link to="/">Marca</Link>
             </li>
-        <li>
-            <a href="#ps" className="nav-item">PS</a>
+        <li className="nav-item">
+            <Link to="/category/Pc">PC</Link>
             </li>
-        <li>
-            <a href="#xbox" className="nav-item">XBOX</a>
+        <li className="nav-item">
+            <Link to="/category/PS">PS</Link>
             </li>
-        <li>
-            <a href="#nintendo" className="nav-item">Nintendo</a>
+        <li className="nav-item">
+            <Link to="/category/Xbox">Xbox</Link>
+            </li>
+            <li className="nav-item">
+            <Link to="/category/Nintendo">Nintendo</Link>
             </li>
         
         <div className="widgetContainer">

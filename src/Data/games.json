@@ -1,0 +1,66 @@
+[
+   {
+      "id":1,
+      "nombre":"Assassin's Creed Valhalla",
+      "precio":10000,
+      "category":"Pc",
+      "img":"../img/Pc/AC_Valhalla.jpg",
+      "cant":1
+   },
+   {
+      "id":2,
+      "nombre":"Age of Empires Definitive Edition",
+      "precio":500,
+      "category":"Pc",
+      "img":"../img/Pc/Age_Of_Empires_II.jpg",
+      "cant":1
+   },
+   {
+      "id":15,
+      "nombre":"Digimon World: Next Order",
+      "precio":8800,
+      "category":"PS",
+      "img":"../img/Ps/Digimon_Next_Order.jpg",
+      "cant":1
+   },
+   {
+      "id":16,
+      "nombre":"Devil May Cry 5",
+      "precio":11800,
+      "category":"PS",
+      "img":"../img/Ps/DMC_V.jpg",
+      "cant":1
+   },
+   {
+      "id":21,
+      "nombre":"Assassin's Creed II",
+      "precio":4100,
+      "category":"Xbox",
+      "img":"../img/Xbox/AC_II.jpg",
+      "cant":1
+   },
+   {
+      "id":22,
+      "nombre":"Assassin's Creed Odyssey",
+      "precio":8000,
+      "category":"Xbox",
+      "img":"../img/Xbox/AC_Odyssey.jpg",
+      "cant":1
+   },
+   {
+      "id":39,
+      "nombre":"Triangle Strategy",
+      "precio":20530,
+      "category":"Nintendo",
+      "img":"../img/Nintendo/Triangle.jpg",
+      "cant":1
+   },
+   {
+      "id":40,
+      "nombre":"The Legend of Zelda: Breath of the Wild",
+      "precio":24700,
+      "category":"Nintendo",
+      "img":"../img/Nintendo/Zelda.jpg",
+      "cant":1
+   }
+]
