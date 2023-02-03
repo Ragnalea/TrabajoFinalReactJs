@@ -1,44 +1,40 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
 import ItemList from '../../Components/ItemList';
-import juegos from '../../Data/games.json';
-
+import { db } from "../../firebase/config";
+import { collection, getDocs, query, where } from "firebase/firestore"; 
 const ItemListContainer = ({greeting}) => {
 
-    const [products, setProducts] = useState([])
+    const [games, setGames] = useState([])
+
     const {categoryId}  = useParams()
+
     useEffect(()=> {
 
-
-        const obtainGame = () => {
-
-        const juegosObtenidos = new Promise((res, rej) => {
-        setTimeout(()=> {
-            res(juegos)
-        }, 3000)
-        })
-
-        juegosObtenidos
-        .then( response => {
-            if (categoryId) { 
-            const gameForCategory = response.filter(response => response.category === categoryId)
-            setProducts(gameForCategory) 
-        } else { 
-            setProducts(response) 
+    const getGame = async() => { 
+        let querySnapshot
+        if (categoryId) {
+            const q = query(collection(db, "games"), where("category", "==", categoryId));
+            querySnapshot = await getDocs(q);
+        }else{
+            querySnapshot = await getDocs(collection(db,"games"));
         }
-        })
-        .catch(error => 
-            console.log(error)
-            )
+            const fireGames = [];
+            querySnapshot.forEach((doc) => {
+            const game ={
+                id: doc.id,
+                ...doc.data()
+            }
+            fireGames.push(game)
+        });
+        setGames(fireGames)
     }
-    obtainGame()
+    getGame();
+}, [categoryId])
 
-    }, [categoryId])
-
-    console.log(products)
 return (
     <div>
-        <ItemList productos={products}/>
+        <ItemList productos={games}/>
     </div>
 
 )}

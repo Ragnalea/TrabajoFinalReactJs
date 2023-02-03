@@ -1,34 +1,36 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
 import ItemDetail from '../ItemDetail/index';
-import juegos from '../../Data/games.json';
 import './style.css';
+import { db } from "../../firebase/config";
+import { doc, getDoc } from "firebase/firestore";
 
 const ItemDetailContainer = () => {
+
   const [detail, setDetail] = useState({})
+
   const {id} = useParams()
+
+  //Este effect se ejecuta cuando se monta el componente
   useEffect(()=> {
-      const obtainGame = () => {
 
-      const juegoObtenido = new Promise((res, rej) => {
-      setTimeout(()=> {
-          res(juegos)
-      }, 3000)
-      })
-
-      juegoObtenido
-      .then( response => {
-          if (id) { 
-          const gamebyCategory = response.find(response => response.id === parseInt(id)) 
-          console.log(gamebyCategory) 
-          setDetail(gamebyCategory) 
+    const getGame = async () => {
+      const docRef = doc(db, "games", id);
+      const docSnap = await getDoc(docRef);
+  
+      if (docSnap.exists()) {
+        console.log("Document data:", docSnap.data());
+        const gameDetail = {
+          id: docSnap.id,
+          ...docSnap.data()
+        }
+        setDetail(gameDetail);
+      } else {
+        // doc.data() will be undefined in this case
+        console.log("¡No existe el producto!");
       }
-      })
-      .catch(error => 
-          console.log(error)
-          )
-  }
-  obtainGame()
+    }
+    getGame();
   }, [id])
 
   return (
@@ -41,5 +43,4 @@ const ItemDetailContainer = () => {
     </div>
   )
 }
-
 export default ItemDetailContainer

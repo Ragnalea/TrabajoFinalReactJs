@@ -1,0 +1,59 @@
+.col{
+color:aqua;
+border-left-style: solid;
+border-top-style: solid;
+border-bottom-style: solid;
+}
+
+.table{
+    color: red;
+    align-items: center;
+    border: solid greenyellow;
+    align-items: center;
+    margin:30px;
+    backdrop-filter: contrast(0.1)
+}
+
+.imgCart{
+    width: 200px;
+}
+
+.row{
+    margin-right: 21px;
+    margin-left: 21px
+}
+
+.btnDel{
+    background-color: red;
+    display: flex;
+    align-items: flex-end;
+}
+
+.title{
+    margin-right: 21px;
+    margin-left: 21px;
+}
+
+.price{
+    margin-right: 21px;
+    margin-left: 21px;
+}
+
+.quantity{
+    margin-right: 21px;
+    margin-left: 21px;
+}
+
+.btnBuy{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    width: 130px;
+    margin-left: 300px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

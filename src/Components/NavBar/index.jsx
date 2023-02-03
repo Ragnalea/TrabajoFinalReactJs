@@ -14,7 +14,7 @@ export default function NavBar(){
             <Link to="/category/Pc">PC</Link>
             </li>
         <li className="nav-item">
-            <Link to="/category/PS">PS</Link>
+            <Link to="/category/Ps">PS</Link>
             </li>
         <li className="nav-item">
             <Link to="/category/Xbox">Xbox</Link>
