@@ -57,3 +57,23 @@ border-bottom-style: solid;
     justify-content: center;
     align-items: center;
 }
+
+h1{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    color: white;
+}
+
+.btnHome{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+}

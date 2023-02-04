@@ -15,6 +15,7 @@ const ShopProvider = ({children}) => {
             setGames([...games])
         }else{   
             setGames([...games, game])
+            
         }
     }
 

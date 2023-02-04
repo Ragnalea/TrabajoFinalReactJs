@@ -1,5 +1,7 @@
 const generateOrder = ({
     nombre = "", 
+    apellido = "", 
+    nick = "", 
     email = "", 
     telefono = "", 
     cart = [], 
@@ -8,6 +10,8 @@ const generateOrder = ({
     return {
         buyer: {
             nombre: nombre,
+            apellido: apellido,
+            nick: nick,
             email: email,
             telefono: telefono,
         },

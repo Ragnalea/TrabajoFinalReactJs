@@ -18,12 +18,14 @@ const Cart = () => {
   const [loader, setLoader] = useState(false);
 
   const confirmPurchase = async (dataDelFormulario) => {
-    const {phone, nombre, email} = dataDelFormulario
+    const {phone, nombre, email, apellido, nick} = dataDelFormulario
     try {
     setLoader(true);
 
     const order = generateOrder({
         nombre,
+        apellido,
+        nick,
         email,
         phone,
         cart: games,
@@ -81,7 +83,7 @@ return (
         <>
           <h1>No hay productos en el carrito.</h1>
           <button>
-            <Link to = "/">Home</Link>
+            <Link to = "/" className='btnHome'>Home</Link>
           </button>
         </>
       }

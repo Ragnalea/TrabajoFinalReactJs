@@ -5,7 +5,7 @@ import ItemDetailContainer from './Components/ItemDetailContainer';
 import{Routes, Route, BrowserRouter} from 'react-router-dom'
 import ShopProvider from './Components/Context/ShopProvider';
 import Cart from './Components/CartContainer/index';
-
+import Landing from './Containers/Landing/Index';
 
 function App() {
   return (  
@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter>
         <NavBar/>
         <Routes>
-          <Route path='/' element={<ItemListContainer/>}/> 
+          <Route path='/' element={<Landing/>}/> 
           <Route path='/category/:categoryId' element={<ItemListContainer/>}/>
           <Route path='/detail/:id' element={<ItemDetailContainer/>}/>
           <Route path='/cart' element={<Cart/>}/> 

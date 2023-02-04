@@ -14,6 +14,7 @@ const ItemDetail = ({detail}) => {
         console.log(`Se agregó una cantidad de productos: ${cantidad}`)
         setQuantity(cantidad);
         addGame({...detail, quantity: cantidad})
+        
     }
 
     return (
